@@ -123,8 +123,8 @@
 									<input type="hidden" name="access_key" value="42ce1b78-5f0d-413f-b1f1-b9dfbd79d98f">					
 									<input type="hidden" name="subject" value="EMAIL ALERT">
 									<input type="hidden" name="redirect" value="https://tiagodataanalyst.github.io/Portfolio_website/#thankyou">
-									<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 									<input type="hidden" name="from_name" value="Portfolio website">
+									<input type="hidden" name="replyto" value=email />
 									<div class="fields">
 										<div class="field half">
 											<label for="first name">First name</label>
@@ -138,10 +138,19 @@
 											<label for="email">Email address</label>
 											<input type="email" name="email" placeholder="Email address" required>
 										</div>
+										
 										<div class="field">
 											<label for="message">Message</label>
 											<textarea name="message" id="message" rows="6" placeholder="Write your message here"></textarea>
 										</div>
+										<div class="field half">
+											<input type="checkbox" id="not-a-robot" name="not-a-robot" required>
+											<label for="not-a-robot">Not a robot</label>
+										</div>
+										<!--<div class="field half">
+											<input type="checkbox" id="Email-copy-sent" name="Email-copy-sent">
+											<label for="Email-copy-sent">Email me a copy</label>
+										</div>-->
 									</div>
 									<ul class="actions">
 										<li><input type="submit" value="Send Message" class="primary" /></li>
@@ -174,7 +183,7 @@
 							</ul>
 						</article>
 
-						<!-- Elements -->
+						<!-- Elements
 							<article id="elements">
 								<h2 class="major">Elements</h2>
 
@@ -193,7 +202,7 @@
 									<h4>Blockquote</h4>
 									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
 									<h4>Preformatted</h4>
-									<pre><code>i = 0;
+									<pre><code>i = 0;-->
 
 while (!deck.isInOrder()) {
     print 'Iteration ' + i;
@@ -202,7 +211,7 @@ while (!deck.isInOrder()) {
 }
 
 print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
+								<!--</section>
 
 								<section>
 									<h3 class="major">Lists</h3>
@@ -414,7 +423,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 									</form>
 								</section>
 
-							</article>
+							</article>-->
 
 					</div>
 
