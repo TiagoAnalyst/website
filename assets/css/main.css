@@ -75,7 +75,7 @@ input, select, textarea {
 /* Basic */
 
 	@-ms-viewport {
-		width: max-content;
+		width: device-width
 	}
 
 	@media screen and (max-width: 480px) {
@@ -1160,7 +1160,7 @@ input, select, textarea {
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			background-image: url("../../images/PXL_20230318_121406100.jpg");
 			background-position: center;
-			background-size: 70vw 100vh;
+			background-size: 70vw 89vh;
 			background-repeat: no-repeat;
 			z-index: 1;
 		}
